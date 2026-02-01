@@ -3,7 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join our Discord</title>
+    
+    <title>Join Byxland Discord Server</title>
+    
+    <link rel="icon" type="image/png" href="byxland_logo.png">
+    
+    <meta name="description" content="Click here to join the official Byxland Discord community. Chat, play, and hang out with us!">
+
+    <meta property="og:title" content="Join Byxland Discord">
+    <meta property="og:description" content="Official invitation to the Byxland community server.">
+    <meta property="og:image" content="https://byxland-discord.netlify.app/byxland_logo.png">
+    <meta property="og:url" content="https://byxland-discord.netlify.app">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#5865F2">
+
     <style>
         /* --- Styles Généraux --- */
         body {
@@ -18,8 +31,6 @@
             height: 100vh;
             text-align: center;
         }
-
-        /* --- Container --- */
         .container {
             background-color: #2f3136;
             padding: 40px;
@@ -28,21 +39,8 @@
             max-width: 400px;
             width: 90%;
         }
-
-        /* --- Typography --- */
-        h1 {
-            margin-top: 0;
-            font-size: 24px;
-            color: #ffffff;
-        }
-
-        p {
-            color: #dcddde;
-            line-height: 1.5;
-            margin-bottom: 30px;
-        }
-
-        /* --- Discord Button --- */
+        h1 { margin-top: 0; font-size: 24px; color: #ffffff; }
+        p { color: #dcddde; line-height: 1.5; margin-bottom: 30px; }
         .discord-btn {
             background-color: #5865F2;
             color: white;
@@ -56,39 +54,32 @@
             border: none;
             cursor: pointer;
         }
-
-        .discord-btn:hover {
-            background-color: #4752c4;
-            transform: translateY(-2px);
-        }
-
-        /* --- Logo Placeholder --- */
+        .discord-btn:hover { background-color: #4752c4; transform: translateY(-2px); }
         .logo-placeholder {
-            width: 80px;
-            height: 80px;
-            background-color: #202225;
-            border-radius: 50%;
-            margin: 0 auto 20px auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
+            width: 80px; height: 80px;
+            background-color: #202225; border-radius: 50%;
+            margin: 0 auto 20px auto; display: flex;
+            align-items: center; justify-content: center;
+            font-size: 40px; overflow: hidden;
         }
+        .logo-placeholder img { width: 100%; height: 100%; object-fit: cover; }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="logo-placeholder">👋</div>
+        <div class="logo-placeholder">
+            <img src="byxland_logo.png" alt="Byxland Logo" onerror="this.style.display='none';this.parentElement.innerHTML='👋'">
+        </div>
 
-        <h1>Welcome!</h1>
+        <h1>Welcome to Byxland!</h1>
         
         <p>
-            You are about to join our private community.<br>
+            You are about to join the <strong>Byxland</strong> official community.<br>
             Click the button below to accept the invite.
         </p>
 
-        <a href="https://discord.gg/VOTRE_CODE_ICI" class="discord-btn" target="_blank">
+        <a href="https://discord.gg/TON-VRAI-LIEN" class="discord-btn" target="_blank">
             Join Server
         </a>
     </div>
